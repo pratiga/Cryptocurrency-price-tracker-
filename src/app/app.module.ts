@@ -12,7 +12,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { CoinListComponent } from './coin-list/coin-list.component';
 import { CoinDetailComponent } from './coin-detail/coin-detail.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import {MatSortModule} from '@angular/material/sort';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -30,8 +32,10 @@ import { HttpClientModule } from '@angular/common/http'
     MatFormFieldModule,
     MatInputModule,
     MatTableModule,
+    MatSortModule,
     MatPaginatorModule,
     FormsModule,
+    NgChartsModule,
     
   ],
   providers: [],
